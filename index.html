@@ -7,41 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
-        rel="stylesheet">
-
+    <link rel="stylesheet" media="screen and (max-width: 1300px)" href="style-mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Yeseva+One&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Yeseva+One&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
 
     <header>
-        <div class="container-1440 ">
-            <span class="logo">IC "Repair Design Project"</span>
-            <nav class="header_nav">
-                <ul class="navigation">
-                    <li class="navigation_item active"><a href="#">HOME</a></li>
-                    <li class="navigation_item"><a href="#">PROJECTS</a></li>
-                    <li class="navigation_item"><a href="#">MEASURMENT</a></li>
-                    <li class="navigation_item"><a href="#">TEAM</a></li>
-                    <li class="navigation_item"><a href="#">REVIEWS</a></li>
-                    <li class="navigation_item"><a href="#">CONTACTS</a></li>
+        <div class="footer_container">
 
-
-                </ul>
-
-            </nav>
-            <span class="header_number_span">+7 (928) 768-32-39</span>
-            <button class="header_button">Request a call</button>
-
-
-        </div>
+            <span class="footer_logo">IC "Repair Design Project"</span>
+            
+            
+            <ul class="footer_list">
+                <li class="footer_list_li"><a id="footer_list_li_active" href="#">HOME</a> </li>
+                <li class="footer_list_li"><a href="#">PROJECTS</a> </li>
+                <li class="footer_list_li"><a href="#">MEASUREMENT</a> </li>
+                <li class="footer_list_li"><a href="#">TEAM</a> </li>
+                <li class="footer_list_li"><a href="#">REVIEWS</a> </li>
+                <li class="footer_list_li"><a href="#">CONTACTS</a> </li>
+            </ul>
+            
+            
+            
+            <span class="footer_number">+7 (928) 768-32-39</span>
+            
+            
+            <button class="footer_button">Request a call</button>
+            
+            
+            
+            
+            
+            
+            
+            
+            </div>
 
 
     </header>
@@ -84,17 +89,29 @@
                             <span>Rostov-on-Don</span>
                             <span>LCD admiral</span>
                         </div>
-                        <div class="description1_Apartment_area">
-                            <h3>apartment area:</h3>
-                            <span>81 m2</span>
-                        </div>
-                    </div>
-                    <!-- разделение -->
-                    <div>
+
+
+
+                        
+
+
                         <div class="description1_Repair_time">
                             <h3>Repair time:</h3>
                             <span>3.5 months</span>
                         </div>
+
+                    </div>
+                    <!-- разделение -->
+                    <div>
+                        <div class="description1_Apartment_area">
+                            <h3>apartment area:</h3>
+                            <span>81 m2</span>
+                        </div>
+
+
+
+
+
                         <div class="description1_Repair_Cost">
                             <h3>Repair Cost:</h3>
                             <span>Upon request</span>
@@ -140,6 +157,51 @@
                 <div class="section_second_rigthSide_slider">
                     <img src="./images/image 2.1.png" alt="slider_second_section">
                 </div>
+
+
+
+                <div class="section_second_leftSide_description d-none">
+                    <!-- разделение -->
+                    <div>
+                        <div class="description1_City">
+                            <h3>City:</h3>
+                            <span>Rostov-on-Don</span>
+                            <span>LCD admiral</span>
+                        </div>
+
+
+
+                        
+
+
+                        <div class="description1_Repair_time">
+                            <h3>Repair time:</h3>
+                            <span>3.5 months</span>
+                        </div>
+
+                    </div>
+                    <!-- разделение -->
+                    <div>
+                        <div class="description1_Apartment_area">
+                            <h3>apartment area:</h3>
+                            <span>81 m2</span>
+                        </div>
+
+
+
+
+
+                        <div class="description1_Repair_Cost">
+                            <h3>Repair Cost:</h3>
+                            <span>Upon request</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
             </div>
 
         </div>
@@ -185,7 +247,7 @@
                     <input class="third_section_forma_iName" type="text" id="name" name="name"
                         placeholder="What is your name:"></div>
 
-                <div class="third_section_forma_separator"> <label class="third_section_forma_lPhone"
+                <div class="third_section_forma_separator  "> <label class="third_section_forma_lPhone"
                         for="phone">Phone</label>
                     <input class="third_section_forma_iPhone" type="number" id="phone" name="phone"
                         placeholder="Your phone number:"></div>
@@ -214,7 +276,7 @@
             <div class="section_fourth_Cards">
                 <div class="section_fourth_Cards_card">
                     <div class="imager card1">
-                        <!-- <img src="./images/card (1).jpg" alt=""> -->
+                        <img style="z-index: -1; position:relative" src="./images/card (1).jpg" alt="">
                     </div>
                     <div class="cad_description">
                         <h4 class="cad_description_h4">Redecorating</h4>
@@ -394,7 +456,7 @@
 
         <div class="section_fifth_container">
 
-            
+
 
 
 
@@ -422,60 +484,254 @@
 
             </div>
 
-           
+
             <div class="section_fifth_rightSide">
-                
-                <div class="fifth_divider_first"> <img class="img_room_clock" src="./images/room-clock.png" alt="">
-                  
+
+                <div class="fifth_divider_first"> <img class="img_room_clock" src="./images/background.png" alt="">
+<!-- <div class="orangeArrow_left d-none"></div>
+<div class="orangeArrow_right d-none"></div> -->
                     <img class="img_room_tv" src="./images/room-tv.png" alt="">
                 </div>
-                
-    
-                    <div class=" fifth_divider_second">
-                        <img class="img_room_couch" src="./images/room-couch.png" alt="">
-                        <img class="img_room_table" src="./images/room-table.png" alt="">
-        </div>
-            
+
+
+                <div class=" fifth_divider_second">
+                    <img class="img_room_couch" src="./images/room-couch.png" alt="">
+                    <img class="img_room_table" src="./images/room-table.png" alt="">
+                </div>
+
             </div>
 
 
         </div>
     </section>
 
-<div class="section_sixth">
-<div class="section_sixth_container">
-    <h3 class="section_sixth_h3">
-        our clients
-    </h3>
-    <div class="handshacke_svg"></div>
-    <p class="section_sixth_p">80% of our customers recommend us to their
-        friends and family.</p>
+    <div class="section_sixth">
+
+        <div class="section_sixth_background">
+
+            <div class="section_sixth_container">
+                <h3 class="section_sixth_h3">
+                    our clients
+                </h3>
+                <div class="handshacke_svg"></div>
+                <p class="section_sixth_p">80% of our customers recommend us to their
+                    friends and family.</p>
 
 
-        <div class="section_sixth_cards">
+                <div class="section_sixth_cards">
 
-            <div class="section_sixth_catds_item">
-                <div class="six_section_item_portrer">
-                    <div class="six_section_item_icon"></div>
-                    <div class="six_section_item_name"></div>
+                    <div class="section_sixth_catds_item">
+                        <div class="six_section_item_portrer">
+                            <div class="six_section_item_icon" style="background-image:url(./images/grany.png) ;"></div>
+                            <div class="six_section_item_name">Fedosova Maria
+                                Konstantinovna</div>
+                        </div>
+
+                        <div class="section_sixth_catds_comment">
+                            I want to thank the guys for their work. We put your shower part in repair. I am very
+                            grateful that I referred to the repair as to my own. Great thanks I express the project
+                            to Georgia for its professionalism and approach.
+                            The repair process was turned out in terms, faster than anticipated. Team mobile and
+                            professional. Works performed qualitatively without comments. Quality satisfied. Prices
+                            democratic. I recommend these masters.
+                        </div>
+
+                        <div class="section_sixth_cards_square">
+                            <div>
+                                <div class="section_sixth_cards_square_iconSquare"></div><span>40 m2</span>
+                            </div>
+                            <div class="border_left_white">
+                                <div class="section_sixth_cards_square_iconDay"></div><span>48 DAYS</span>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="section_sixth_catds_item">
+                        <div class="six_section_item_portrer">
+                            <div class="six_section_item_icon" style="background-image:url(./images/man.png) ;"></div>
+                            <div class="six_section_item_name">Afanasyev Sergey Alexandrovich</div>
+                        </div>
+
+                        <div class="section_sixth_catds_comment">
+                            I want to thank the guys for their work. We put your shower part in repair. I am very
+                            grateful that I referred to the repair as to my own. Great thanks I express the project
+                            to Georgia for its professionalism and approach.
+                            The repair process was turned out in terms, faster than anticipated. Team mobile and
+                            professional. Works performed qualitatively without comments. Quality satisfied. Prices
+                            democratic. I recommend these masters.
+                        </div>
+
+                        <div class="section_sixth_cards_square">
+                            <div>
+                                <div class="section_sixth_cards_square_iconSquare"></div><span>40 m2</span>
+                            </div>
+                            <div class="border_left_white">
+                                <div class="section_sixth_cards_square_iconDay"></div><span>48 DAYS</span>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+
+                    <div class="section_sixth_catds_item">
+                        <div class="six_section_item_portrer">
+                            <div class="six_section_item_icon" style="background-image:url(./images/suit.png) ;"></div>
+                            <div class="six_section_item_name">Kiriev Egor Leonidovich</div>
+                        </div>
+
+                        <div class="section_sixth_catds_comment">
+                            I want to thank the guys for their work. We put your shower part in repair. I am very
+                            grateful that I referred to the repair as to my own. Great thanks I express the project
+                            to Georgia for its professionalism and approach.
+                            The repair process was turned out in terms, faster than anticipated. Team mobile and
+                            professional. Works performed qualitatively without comments. Quality satisfied. Prices
+                            democratic. I recommend these masters.
+                        </div>
+
+                        <div class="section_sixth_cards_square">
+                            <div>
+                                <div class="section_sixth_cards_square_iconSquare"></div><span>40 m2</span>
+                            </div>
+                            <div class="border_left_white">
+                                <div class="section_sixth_cards_square_iconDay"></div><span>48 DAYS</span>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
                 </div>
 
-                <div class="section_sixth_catds_comment">
-                    I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project 
-to Georgia for its professionalism and approach.
-The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
-                </div>
+
+
+
             </div>
-            <button></button>
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="section_seventh">
+
+        <div class="section_seventh_container">
+
+
+            <div class="section_seventh_container_forma">
+                <h3 class="section_seventh_container_forma_h3">have any questions?</h3>
+
+
+                <form>
+                   
+
+                    <div class="d_flex">
+                        <div class="section_seventh_form_name"> <label class="section_seventh_lName"
+                            for="section_seventh_fname"> Name</label>
+                        <input class="section_seventh_iName" type="text" id="section_seventh_fname"
+                            name="section_seventh_fname" placeholder="What is your name:">
+                    </div>
+
+
+                    <div class="section_seventh_form_phone">
+                        <label class="section_seventh_lPhone" for="section_seventh_lPhone">Phone</label>
+                        <input class="section_seventh_iPhone" type="text" id="section_seventh_lPhone"
+                            name="section_seventh_lPhone" placeholder="Your phone number:"></div>
+                    </div>
+
+
+
+
+                    <div class="section_seventh_form_area"><label class="section_seventh_lTextarea"
+                            for="section_seventh_textareaID">Question</label>
+                        <textarea class="section_seventh_textarea"
+                            id="section_seventh_textareaID" placeholder="I want to know:"></textarea></div>
+
+                            <label class="third_section_forma_checkbox section_seventh_chekbox_white">I agree to the processing of personal data
+                                <input type="checkbox" />
+                                <span></span>
+                            </label>
+
+
+                    <input class="section_seventh_foma_button " type="Submit" value="Submit">
+                </form>
+
+
+            </div>
+
+
+
+
+
+
+        <div class="section_seventh_social_flex">
+            <h3 class="section_seventh_h3">Rostov-on-Don, Nansen St., 239 Shopping Center
+                Decorum Tel +7 (928) 768 32 29</h3>   
+    
+                <div class="section_seven_social">
+    
+                    <div class="section_seven_social_icon"><img  src="./images/mail.png" alt=""></div>
+                    <div class="section_seven_social_icon">    <img  src="./images/instagram.png" alt=""></div>
+                
+                </div>
+    
+    
+                <div class="section_seventh_map">
+                    <img src="./images/map.png" alt="">
+                </div>
         </div>
 
+        </div>
+    </div>
+
+
+
+<footer>
+
+<div class="footer_container">
+
+<span class="footer_logo">IC "Repair Design Project"</span>
+
+
+<ul class="footer_list">
+    <li class="footer_list_li"><a id="footer_list_li_active" href="#">HOME</a> </li>
+    <li class="footer_list_li"><a href="#">PROJECTS</a> </li>
+    <li class="footer_list_li"><a href="#">MEASUREMENT</a> </li>
+    <li class="footer_list_li"><a href="#">TEAM</a> </li>
+    <li class="footer_list_li"><a href="#">REVIEWS</a> </li>
+    <li class="footer_list_li"><a href="#">CONTACTS</a> </li>
+</ul>
+
+
+
+<span class="footer_number">+7 (928) 768-32-39</span>
+
+
+<button class="footer_button">Request a call</button>
+
+
+
+
+
 
 
 
 </div>
 
+</footer>
 
-</div>
 </body>
 
 </html>
