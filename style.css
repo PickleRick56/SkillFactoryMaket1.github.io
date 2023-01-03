@@ -531,7 +531,7 @@ nav {
 }
  
 .third_section_forma{
-    max-width: 769px;
+    max-width: 775px;
     display: block;
     margin: 0 auto;
 }
@@ -1095,14 +1095,18 @@ text-align: left;
     width: 58.6%;
 }
 
-.fifth_divider_first{
+.fifth_divider_first {
     max-width: 355px;
 margin-top:-41px
 }
 
-.orangeArrow_left{
+
+
+
+
+/* .orangeArrow_left{
     display:none;
-    position: relative;
+    position: absolute;
     left: 0;
     top: 0;
     width: 36px;
@@ -1113,20 +1117,21 @@ margin-top:-41px
   }
   .orangeArrow_right{
     display:none;
-    position: relative;
+    position: absolute;
     left: 0;
     top: 0;
     width: 36px;
     height: 36px;
     border-radius: 50%;
     background: rgba(227, 184, 115, 1);
-  }
+  } */
 
 .fifth_divider_second{
     
     max-width: 355px;
     margin-top: -112.53px;
 }
+
 
 
 .img_room_clock{
@@ -1492,12 +1497,15 @@ text-align: center;
 }
 
 .section_seven_social{
-    max-width: 71px;
-    margin:0 auto;
+    
     
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   
+}
+
+.section_seven_social_icon:first-child{
+    margin-right: 21px;
 }
 
 .section_seven_social_icon{

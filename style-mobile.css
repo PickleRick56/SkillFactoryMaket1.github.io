@@ -143,11 +143,39 @@ vertical-align: Top;
   }
 
   .section_second_rigthSide_slider{
+    position: relative;
     max-width: 90%;
     margin:0 auto;
   }
 
-
+  .section_second_rigthSide_slider::before {
+    cursor: pointer;
+    content: '';
+    position: absolute;
+    top: 41%;
+    left: 13px;
+    height: 12%;
+    width: 9%;
+    border-radius: 50%;
+    background-image: url(./svg/control-left.svg);
+    background-color: #E3B873;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+  .section_second_rigthSide_slider::after {
+    cursor: pointer;
+    position: absolute;
+    content: '';
+    top: 41%;
+    right: 13px;
+    height: 12%;
+    width: 9%;
+    border-radius: 50%;
+    background-image: url(./svg/control-right.svg);
+    background-color: #E3B873;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
   /* SPECIAL */
 
@@ -317,28 +345,38 @@ margin: 0 auto;
   margin: 0;
 }
 
-.fifth_divider_first :before {
-  content: "";
-  display: block;
-  width: 0; 
-  height: 0; 
-  border-top: 12px solid transparent;
-  border-bottom: 12px solid transparent;
-  border-right: 12px solid #727272; 
+.fifth_divider_first::before{
+  cursor: pointer;
+  content: '';
   position: absolute;
-  top: 16px;
-  left: -12px;
+  top: 87%;
+  left: 13px;
+  height: 25%;
+  width: 9%;
+  border-radius: 50%;
+background-image: url(./svg/control-left.svg);
+  background-color: #E3B873;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+ 
 }
-.fifth_divider_first ::after{
-  content: url(./images/Rectangle\ 6.8.png);
-  height: 33px;
-  width: 33px;
+
+.fifth_divider_first::after{
+ cursor: pointer;
   position: absolute;
-  left: 50%;
-  margin-left: 19px;
-  top: 50%;
-  margin-top: -9px;
+  content: '';
+  top: 87%;
+  right: 13px;
+  height: 25%;
+    width: 9%;
+  border-radius: 50%;
+  background-image: url(./svg/control-right.svg);
+  background-color: #E3B873;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 
 /* .orangeArrow_left{
   position: absolute;
