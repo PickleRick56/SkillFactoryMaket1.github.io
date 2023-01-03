@@ -171,10 +171,8 @@ nav {
 
     margin: 0 auto;
     max-width: 1440px;
-    background-image: url(images/section1.png);
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.7);
-    background-blend-mode: darken;
+   
+ 
     padding-left: 7.1%;
     padding-top: 9.9%;
     padding-bottom: 210px;
