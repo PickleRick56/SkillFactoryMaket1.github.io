@@ -1553,6 +1553,7 @@ footer{
 .footer_container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
     max-width: 1440px;
     margin: 0 auto;
@@ -1567,7 +1568,7 @@ footer{
 
 .footer_logo{
 
-    margin-right: 12.21%;
+    margin-right: 95px;
     color:rgba(227, 184, 115, 1);
     letter-spacing: 1px;
     font-family: Nunito Sans;
@@ -1579,17 +1580,9 @@ text-align: left;
 
 }
 
-.footer_list{
-    margin-right: 25.61%;
-}
 
-.footer_list_li{
-    margin-right: 21%;
-}
 
-.footer_list_li:last-child{
-margin-right: 0;
-}
+
 
 .footer_list_li>a{
     color:#FFFFFF;
@@ -1612,7 +1605,8 @@ text-align: left;
 
 
 .footer_number{
-    margin-right: 3.1%;
+    margin-left:68px;
+    margin-right: 45px;
     color:rgba(227, 184, 115, 1);
     text-decoration: underline;
     font-family: Nunito Sans;
